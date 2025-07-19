@@ -240,6 +240,10 @@ footer {
     margin-right: 24px;
 }
 
+.footer-column textarea {
+    height: 150px;
+}
+
 footer input[type="text"], footer input[type="email"], textarea {
     height: 64px;
     border-radius: 5px;
@@ -250,3 +254,4 @@ footer input[type="text"], footer input[type="email"], textarea {
     margin-bottom: 24px;
     padding: 10px 20px;
 }
+
