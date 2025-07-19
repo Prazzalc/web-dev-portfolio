@@ -96,21 +96,29 @@ nav ul li a {
     display: flex;
     justify-content: space-between;
     margin: 0 35px 0 200px;
+    align-items: center;
 }
 
 .banner-content {
     max-width: 580px;
 }
 
+.banner-content button {
+    margin-right: 10px;
+}
+
 .banner-greetings {
     font-weight: 600px;
     font-size: 45px;
+    margin-bottom: 0px;
 }
 
 .banner-title {
     font-weight: bold;
     font-size: 85px;
     color: #181818;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .banner-desc {
@@ -147,6 +155,12 @@ main section {
     text-align: center;
 }
 
+.about-container {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
 .item-description {
     font-weight: 600;
 }
@@ -171,6 +185,11 @@ main section {
 
 /* resume container styles */
 
+.resume .section-title {
+    margin-top: 130px;
+    margin-bottom: 113px;
+}
+
 .resume-container {
     display: flex;
     gap: 24px;
@@ -179,16 +198,20 @@ main section {
 .resume-column-title {
     font-weight: bold;
     font-size: 30px;
+    margin-bottom: 30px;
 }
 
 .experience-title {
     font-weight: bold;
     font-size: 25px;
+    margin-bottom: 10px;
 }
 
 .experience-sub-title {
     font-weight: 600;
     font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 
 .experience-desc {
@@ -211,6 +234,10 @@ footer {
 
 .footer-column {
     width: 50%;
+}
+
+.footer-column a {
+    margin-right: 24px;
 }
 
 footer input[type="text"], footer input[type="email"], textarea {
